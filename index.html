@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNTI Landing Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+
+<body>
+    <!-- Sticky Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="images/Logo.png" alt="Logo"> <!-- Add the path to your logo -->
+            </a>
+            <!-- Toggler for mobile view -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Courses
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Course 1</a></li>
+                            <li><a class="dropdown-item" href="#">Course 2</a></li>
+                            <li><a class="dropdown-item" href="#">Course 3</a></li>
+                            <li><a class="dropdown-item" href="#">Course 4</a></li>
+                            <li><a class="dropdown-item" href="#">Course 5</a></li>
+                            <li><a class="dropdown-item" href="#">Course 6</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- Right-aligned section with "Refer and Earn", "More", and "Sign Up" -->
+                <div class="navbar-right">
+                    <ul class="navbar-nav">
+                        <!-- Refer and Earn -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Refer and Earn</a>
+                        </li>
+                        <!-- More Dropdown -->
+                        <li class="nav-item dropdown">
+                            <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMore" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                More
+                            </a> -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMore">
+                                <li><a class="dropdown-item" href="#">About</a></li>
+                                <li><a class="dropdown-item" href="#">Contact</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- Sign Up Button -->
+                    <a class="btn btn-signup ms-3" href="#">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Enquiry Form -->
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="card border-0 shadow-lg">
+            <div class="row g-0">
+                <!-- Left Side: Center-Aligned Content Section -->
+                <div class="col-lg-6 bg-light d-flex flex-column justify-content-center align-items-start px-5 py-4">
+                    <div>
+                        <h1 class="fw-bold text-primary mb-3" style="font-size: 2.7rem; line-height: 1.2;">Accelerate
+                            your learning</h1><br>
+                        <p class="text-muted mb-3" style="font-size: 1.1rem; line-height: 1.6;">
+                            Take your career further. Discover 1400+ courses from top universities and master in-demand
+                            skills
+                            across marketing, tech, business, cybersecurity, and more.
+                        </p><br>
+                        <button class="btn btn-primary btn-lg px-4 py-2 rounded-pill mb-4">Download
+                            Brochure</button><br>
+                        <p class="text-danger fw-bold mb-2" style="font-size: 1rem;">Hurry up! 300+ people have applied
+                            to date.</p><br>
+                        <p class="mb-1"><strong>For enquiries:</strong></p><br>
+                        <p class="text-muted mb-0" style="font-size: 1rem;">
+                            <a href="tel:+919552723300" class="text-decoration-none">+91 95527 23300</a>,
+                            <a href="tel:+919822343013" class="text-decoration-none">+91 98223 43013</a>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Right Side: Enquiry Form -->
+                <div class="col-lg-6 p-5 bg-white rounded-end">
+                    <h3 class="text-center mb-4">Enquiry Now</h3>
+                    <form id="applyForm" novalidate>
+                        <!-- Form Fields -->
+                        <div class="mb-3">
+                            <label for="fullName" class="form-label">Full Name <span
+                                    class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="fullName" placeholder="Enter your full name"
+                                required>
+                            <div class="invalid-feedback">Please enter your full name.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phoneNumber" class="form-label">Phone Number <span
+                                    class="text-danger">*</span></label><br>
+                            <input type="tel" class="form-control" id="phoneNumber"
+                                placeholder="Enter your phone number" required>
+                            <div class="invalid-feedback">Please enter a valid phone number.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                            <div class="invalid-feedback">Please enter a valid email address.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="parentCategory" class="form-label">Course Category <span
+                                    class="text-danger">*</span></label>
+                            <select class="form-control custom-select" id="parentCategory" required>
+                                <option value="" disabled selected>Select a course category</option>
+                                <option value="azure">MICROSOFT AZURE CLOUD</option>
+                                <option value="office365">MICROSOFT OFFICE 365</option>
+                                <option value="mcsa">MCSA on Windows</option>
+                                <option value="ccna">CCNA</option>
+                                <option value="hardware">COMPUTER FUNDAMENTAL</option>
+                                <option value="devops">DEVOPS</option>
+                                <option value="data">DATA COURSES</option>
+                                <option value="excel-powerbi">EXCEL AND POWER BI</option>
+                            </select>
+                            <div class="invalid-feedback">Please select a course category.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="childCategory" class="form-label">Course <span
+                                    class="text-danger">*</span></label>
+                            <select class="form-control custom-select" id="childCategory" required>
+                                <option value="" disabled selected>Select a course</option>
+                            </select>
+                            <div class="invalid-feedback">Please select a course.</div>
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary rounded-pill">Submit</button>
+                        </div>
+                    </form>
+                    <p class="text-center mt-3 small">By clicking "Submit" you agree to our Terms & Conditions</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Statistics Section -->
+    <section class="statistics">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="counter" data-target="10000000">0</div>
+                    <p>Learners Have Trusted Us</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="counter" data-target="53">0</div>
+                    <p>Salary Hike</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="counter" data-target="833">0</div>
+                    <p>Happy Outcome</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Updated Knowledge Partner Section -->
+    <section class="knowledge-partner">
+        <div class="container">
+            <h1 class="font-weight-bold h3 mb-5 text-center">Our Knowledge Partner</h1>
+            <hr />
+            <section class="customer-logos slider">
+                <div class="slide"><img src="images/AWS.png" alt="Partner 1"></div>
+                <div class="slide"><img src="images/Microsoft.png" alt="Partner 2"></div>
+                <div class="slide"><img src="images/RedHat.png" alt="Partner 3"></div>
+                <div class="slide"><img src="images/Gcp.svg" alt="Partner 4"></div>
+                <div class="slide"><img src="images/Meta.png" alt="Partner 5"></div>
+                <div class="slide"><img src="images/wip.svg" alt="Partner 6"></div>
+                <div class="slide"><img src="images/Infosys.png " alt="Partner 7"></div>
+                <div class="slide"><img src="images/tm.png" alt="Partner 8"></div>
+            </section>
+        </div>
+    </section>
+
+    <!-- Course Benefits Section -->
+    <section class="benefits-section">
+        <div class="container">
+            <h2 class="text-center">Why take up <span class="highlight">Courses?</span></h2>
+            <p class="text-center">A quick summary of the services offered</p>
+            <div class="row">
+                <div class="col-md-4 benefit-card">
+                    <div class="benefit-card-content">
+                        <img src="images/w1.png" alt="Hands-on Learning">
+                        <h5>Hands-on Learning</h5>
+                        <p>Build the exact portfolio within 2 Industry Projects and study practically through 50 case
+                            studies and 30 practice codes.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 benefit-card">
+                    <div class="benefit-card-content">
+                        <img src="images/w2.png" alt="Live Sessions">
+                        <h5>Live Sessions</h5>
+                        <p>Attend 140+ Hours Live Sessions with Industry Experts on Masterclasses, where you'll gain
+                            immense information and clear all your doubts.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 benefit-card">
+                    <div class="benefit-card-content">
+                        <img src="images/w3.png" alt="Integrated Placement Training">
+                        <h5>Integrated Placement Training</h5>
+                        <p>Get Industry-ready with Mock Interviews, Resume Building Workshops, and placement training
+                            sessions for Python, SQL, Linux.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container"></div>
+    <h2 class="text-center my-4">Discover <span style="color: blue;">Our Courses</span></h2>
+
+    <div class="row custom-card-container">
+        <!-- Card 1 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="unique-card">
+                <img src="images/900.jpg" class="unique-card-image" alt="Azure Fundamentals">
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="unique-card">
+                <img src="images/az104.jpg" class="unique-card-image" alt="Azure Administrator">
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="unique-card">
+                <img src="images/az305.jpg" class="unique-card-image" alt="Azure Architect">
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="unique-card">
+                <img src="images/az900.jpg" class="unique-card-image" alt="M365 Fundamentals">
+            </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="unique-card">
+                <img src="images/ms102.jpg" class="unique-card-image" alt="Enterprise Administrator">
+            </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="unique-card">
+                <img src="images/ws.jpg" class="unique-card-image" alt="Windows Server">
+            </div>
+        </div>
+    </div>
+
+    <!-- View More Button -->
+    <div class="custom-view-more">
+        <button class="btn btn-primary">View More Domains</button>
+    </div>
+    </div>
+
+
+    <div>
+        <section class="text-center p-5 bg-light"></section>
+        <section class="j">
+            <h2 class="font-weight-bold">Real Stories, <span class="text-primary">Incredible Journey</span></h2>
+            <p>Swipe to find learners like you, or speak to a career expert and get started today.</p>
+        </section>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="bg-white py-4">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <div class="d-flex justify-content-around stats">
+                            <div class="text-center">
+                                <p>
+                                    < 2016-2024></2016-2024>
+                                </p>
+                            </div>
+                            <div class="text-center">
+                                <h3 class="font-weight-bold"><span class="counter" data-count="12000">0</span>+</h3>
+                                <p>Carrier Transition</p>
+                            </div>
+                            <div class="text-center">
+                                <h3 class="font-weight-bold"><span class="counter" data-count="80">0</span>%+</h3>
+                                <p>Program completion Rate</p>
+                            </div>
+                            <div class="text-center">
+                                <h3 class="font-weight-bold"><span class="counter" data-count="1500">0</span></h3>
+                                <p>Companies Hired</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Syllabus Section -->
+    </div>
+    <div class="tess">
+        <!-- Credentials Section (Exact Replica with Grid) -->
+        <section class="py-5">
+            <div class="container text-center">
+                <section class="te">
+                    <h3 class="tco">Earn valuable credentials</h3>
+                    <p>Get certified and make a stand-out resume upon graduating from our program</p>
+                </section>
+
+                <!-- Grid for Certification Section -->
+                <div class="row justify-content-center align-items-center">
+                    <!-- Text Section -->
+                    <div class="col-md-6 text-md-left text-center">
+                        <h5 class="font-weight-bold" style="color: blue;">Certification of Completion</h5>
+                        <p>Add our certificate to your resume and unlock exciting opportunities in top companies.</p>
+                    </div>
+
+                    <!-- Image Section -->
+                    <div class="col-md-6 text-md-right text-center">
+                        <img src="images/cer.jpg" alt="Certificate Image" class="img-fluid certification-image" id="co">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="team" class="team-section py-5 bg-black">
+            <div class="container text-center text-light">
+                <h2 class="mb-5 text-primary">OUR TEAM MEMBERS</h2>
+                <div class="row justify-content-center">
+                    <!-- First Row -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="team-member">
+                            <img src="images/profile.jpg" alt="Mrs. Vishwanjali" class="team-img mb-3">
+                            <h5 class="text-light">Mrs. Vishwanjali ( Director )</h5>
+                            <!-- <p class="role-text text-warning">( Director )</p> -->
+                            <p class="role-detail">MCSA Trainer</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="team-member">
+                            <img src="images/profile.jpg" alt="Mr. Ashok" class="team-img mb-3">
+                            <h5 class="text-light">Mr. Ashok</h5>
+                            <p class="role-detail">Linux & Cisco Trainer</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="team-member">
+                            <img src="images/profile.jpg" alt="Mrs. Anjali" class="team-img mb-3">
+                            <h5 class="text-light">Mrs. Anjali</h5>
+                            <p class="role-detail">Oracle Trainer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <!-- Second Row -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="team-member">
+                            <img src="images/profile.jpg" alt="Mrs. Varsha" class="team-img mb-3">
+                            <h5 class="text-light">Mrs. Varsha</h5>
+                            <p class="role-detail">Programming Languages Trainer</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="team-member">
+                            <img src="images/profile.jpg" alt="Mr. Utkarsh" class="team-img mb-3">
+                            <h5 class="text-light">Mr. Utkarsh</h5>
+                            <p class="role-detail">Python Trainer</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                        <div class="team-member">
+                            <img src="images/profile.jpg" alt="Mr. Varun" class="team-img mb-3">
+                            <h5 class="text-light">Mr. Varun</h5>
+                            <p class="role-detail">Dot Net Trainer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+
+    </div>
+    <div class="yup">
+        <section class="testimonial-section">
+            <!-- Section Heading -->
+            <div class="container">
+                <h1 class="testimonial-heading">TESTIMONIALS</h1>
+                <p class="testimonial-subheading">
+                    Don’t take our words for it, <span class="highlight-subtext">Take theirs</span>
+                </p>
+
+                <!-- Testimonials Cards -->
+                <div class="testimonials">
+                    <!-- Testimonial Card 1 -->
+                    <div class="testimonial-card">
+                        <img src="https://via.placeholder.com/50" alt="Profile Image" class="profile-img">
+                        <h5>Mahi Joshi</h5>
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since.</p>
+                        <div class="quote-icon">❝</div>
+                    </div>
+
+                    <!-- Testimonial Card 2 -->
+                    <div class="testimonial-card">
+                        <img src="https://via.placeholder.com/50" alt="Profile Image" class="profile-img">
+                        <h5>Vikram Thakur</h5>
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since.</p>
+                        <div class="quote-icon">❝</div>
+                    </div>
+
+                    <!-- Testimonial Card 3 -->
+                    <div class="testimonial-card">
+                        <img src="https://via.placeholder.com/50" alt="Profile Image" class="profile-img">
+                        <h5>Akshay Patel</h5>
+                        <div class="stars">
+                            ★★★★★
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since.</p>
+                        <div class="quote-icon">❝</div>
+                    </div>
+                </div>
+
+                <!-- Navigation Dots -->
+                <!-- <div class="testimonial-dots">
+            <div class="testimonial-dot active"></div>
+            <div class="testimonial-dot"></div>
+            <div class="testimonial-dot"></div>
+        </div> -->
+            </div>
+        </section>
+    </div>
+    <section>
+        <div class="container mt-5">
+            <h2 class="faq-title text-center mb-4">Frequently Asked Questions</h2>
+            <div class="accordion" id="faqAccordion">
+                <!-- FAQ 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Will there be live classes?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="faq1"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, we provide live classes with interactive sessions.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Will I get lifetime access for any course/program?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="faq2"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, you will get lifetime access to all the materials once you enroll in a course.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Will I receive any certificate after completion of course/program?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="faq3"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, after completing the course/program, you will receive a certification of completion.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Will there be live classes?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="faq4"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, we provide live classes with interactive sessions.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ 5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq5">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Will I get lifetime access for any course/program?
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="faq5"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, you will get lifetime access to all the materials once you enroll in a course.
+                        </div>
+                    </div>
+                </div>
+                <!-- FAQ 6 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="faq6">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            Will I receive any certificate after completion of course/program?
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="faq6"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes, after completing the course/program, you will receive a certification of completion.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer mt-5">
+            <div class="container">
+                <div class="row">
+                    <!-- Contact Information -->
+                    <div class="col-md-6 contact-info">
+                        <a><img src="images/Logo.png" alt="Logo" id="lof"><br>
+                            <h5>System & Network Technologies</h5>
+                        </a>
+                        <p id="p"><i class="bi bi-telephone-fill"></i> +91 955 272 3300</p>
+                        <p id="p"><i class="bi bi-envelope-fill"></i> info@snt.in</p>
+                        <p id="p"><i class="bi bi-geo-alt-fill"></i> Office no. 3, Mandar Residency, LB Shastri Road,
+                            Sadashiv Peth, Pune-30</p>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="col-md-4 quick-links">
+                        <h5>Quick Links</h5>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Admission form</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- IT-IMS Courses -->
+                    <!-- <div class="col-md-3 it-ims-courses">
+                <h5>IT-IMS Courses</h5>
+                <ul>
+                    <li><a href="#">Microsoft Technologies</a></li>
+                    <li><a href="#">Cisco Technologies</a></li>
+                    <li><a href="#">Cloud Technologies</a></li>
+                    <li><a href="#">Virtualization Technologies</a></li>
+                    <li><a href="#">Ethical Hacking</a></li>
+                    <li><a href="#">Oracle</a></li>
+                </ul>
+            </div> -->
+
+                    <!-- Software Courses -->
+                    <!-- <div class="col-md-3 software-courses">
+                <h5>Software Courses</h5>
+                <ul>
+                    <li><a href="#">Python Programming</a></li>
+                    <li><a href="#">Data Science</a></li>
+                    <li><a href="#">Internet of Things</a></li>
+                    <li><a href="#">Full Stack</a></li>
+                    <li><a href="#">Advance Excel</a></li>
+                    <li><a href="#">Web Development</a></li>
+                </ul>
+            </div> -->
+                </div>
+
+                <!-- Horizontal Line -->
+                <div class="footer-line"></div>
+
+                <!-- Social Media and Copyright -->
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start">
+                        <p class="copyright">© Copyright 2020. Systems and Networks Technologies Training Institute.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end social-icons">
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- intl-tel-input JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
